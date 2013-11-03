@@ -6,5 +6,5 @@ template_files = assets.each_logical_path.select { |file| assets.content_type_of
 %>
 angular.module('anguar-rails-assets', [])
   .constant('railsAssets', {
-    <%= template_files.map { |f| "#{ f }: '#{ asset_path(f) }'" }.join(",\n      ") %>
+    <%= template_files.map { |f| "'#{ f }': '#{ asset_path(f) }'" }.join(",\n    ") %>
   });
