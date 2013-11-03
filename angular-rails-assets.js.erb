@@ -1,11 +1,4 @@
-<%
-# template_content_types = ['text/html']
-
-# assets = Rails.application.assets
-# template_files = assets.each_logical_path.select { |file| assets.content_type_of(file).in? template_content_types }
-%>
 angular.module('angular-rails-assets', [])
   .constant('railsAssets', function (filename) {
     return '/assets/' + filename;
-    <%= # template_files.map { |f| "'#{ f }': '#{ asset_path(f) }'" }.join(",\n    ") %>
   });
