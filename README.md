@@ -3,6 +3,8 @@ angular-rails-assets
 
 This is a module intended for [AngularJS](http://angularjs.org) apps working with the [Ruby on Rails asset pipeline](http://guides.rubyonrails.org/asset_pipeline.html). This is useful if you plan on using HAML as a preprocessor for your templates.
 
+**I'm currently facing problems with recompiling the file in development - right now the file serves assets without fingerprinting as a temporary measure, but I hope to find a fix soon**
+
 Installation
 ------------
 Add the `angular-rails-assets.js.erb` file into your assets directory, and require it in your `application.js` file.
