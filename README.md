@@ -20,7 +20,8 @@ angular.module('your-module')
   .directive('your-directive', funtion (railsAssets) {
     return {
       restrict: //...
-      templateUrl: railsAssets['your-template.html'], // Don't include post-processor extensions like .haml
+      templateUrl: railsAssets['your-template.html'],
+      // Don't include post-processor extensions like .haml into the filename
       scope: {
         // ...
       },
