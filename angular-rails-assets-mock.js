@@ -1,2 +1,2 @@
-angular.module('journals.assets', []).
+angular.module('angular-rails-assets', []).
   .constant('railsAssets', {});
