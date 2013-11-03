@@ -1,0 +1,19 @@
+{
+	"name": "angular-rails-assets",
+	"version": "0.1.0",
+	"homepage": "https://github.com/rahul-sekhar/angular-rails-assets",
+	"authors": [
+		"Rahul Sekhar <sekhar.rahul@gmail.com>"
+	],
+	"description": "AngularJS module to use and cache rails assets",
+	"main": "angular-rails-assets.js.erb",
+	"keywords": [
+		"angularjs",
+		"rails",
+		"assets"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+	]
+}
